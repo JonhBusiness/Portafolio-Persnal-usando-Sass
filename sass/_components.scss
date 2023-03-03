@@ -1,0 +1,29 @@
+@use "stylesPage";
+@use "globals";
+
+.hero {
+  @include stylesPage.hero();
+  @include stylesPage.efects();
+}
+.container-custom {
+  @include globals.container();
+}
+
+.navbar {
+  @include stylesPage.navStyle();
+}
+.navbar-nav {
+  @include stylesPage.Nav();
+}
+.aboutme {
+  @include stylesPage.About();
+}
+.portafolio {
+  @include stylesPage.Portafolio();
+}
+.contact {
+  @include stylesPage.Contact();
+}
+.card-img-top {
+  @include globals.Foto();
+}
